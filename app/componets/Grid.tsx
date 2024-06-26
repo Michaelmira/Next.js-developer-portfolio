@@ -14,7 +14,6 @@ const Grid = () => {
               title={item.title}
               description={item.description}
             />
-
           ))}
       </BentoGrid>
     </section>
