@@ -54,8 +54,12 @@ export const BentoGridItem = ({
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('michaelmirisciotta@gmail.com')
-  }
+    navigator.clipboard.writeText('michaelmirisciotta@gmail.com');
+    setCopied(true);  // Trigger animation and text change
+
+    // Reset `copied` back to false after 2 seconds to reset button text and animation
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
     <div
@@ -131,19 +135,20 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <div className="absolute -bottom-5 right-0">
-                <Lottie
+              <Lottie
                   options={{
-                    loop: copied,
-                    autoplay: copied,
+                    loop: false,  // Animation will play once per click
+                    autoplay: copied,  // Animation will play when `copied` is true
                     animationData,
                     rendererSettings: {
                       preserveAspectRatio: 'xMidYMid slice',
                     },
                   }}
+                  isStopped={!copied}  // Stops animation when `copied` is false
                 />
               </div>
               <MagicButton
-                title={copied ? 'Email copied' : ''}
+                title={copied ? 'Email copied' : 'Copy my Email'}
                 icon={<IoCopyOutline />}
                 position="left"
                 otherClasses="!bg-[#161a31]"
