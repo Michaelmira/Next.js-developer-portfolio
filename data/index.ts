@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
+      title: "I prioritize collaborative client relationships and maintain open lines of communication.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "I'm comfortable working across multiple time zones.",
       description: "",
       className: " grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
       imgClassName: "",
@@ -40,7 +40,7 @@ export const navItems = [
       id: 4,
       title: "Tech enthusiast with a passion for development.",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-1 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/grid.svg",
@@ -49,9 +49,9 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
-      className: "md:col-span-3 md:row-span-2",
+      title: "My Current Day To Day",
+      description: "I spend most of my day mentoring students, guiding them from setting up their first repo to completing complex web applications. Beyond mentoring, I love refining my past web projects and building new ones. In my free time, I'm diving into Next.js, practicing algorithms, and studying for my upcoming AWS exam.",
+      className: "lg:col-span-2 md:col-span-1 lg:row-span-1",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
       img: "/b5.svg",
@@ -61,7 +61,7 @@ export const navItems = [
       id: 6,
       title: "Do you want to start a project together?",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+      className: "lg:col-span-3 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
