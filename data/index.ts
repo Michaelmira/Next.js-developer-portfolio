@@ -76,7 +76,7 @@ export const navItems = [
       des: "A one-stop platform for managing customers and work orders with a customer progress bar.",
       img: "https://res.cloudinary.com/dufs8hbca/image/upload/v1731903090/Saved/Copy-of-Untitled-Design-Poster-US-Canva-11-17-2024_08_11_PM_dgtuhb.png",
       iconLists: ["https://www.svgrepo.com/show/452228/html-5.svg", "https://www.svgrepo.com/show/452185/css-3.svg", "https://www.svgrepo.com/show/353498/bootstrap.svg", "https://www.svgrepo.com/show/349419/javascript.svg","/re.svg","https://www.svgrepo.com/show/373931/node2.svg", "https://www.svgrepo.com/show/452091/python.svg", "https://www.svgrepo.com/show/354200/postgresql.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "github.com/Michaelmira/pimp-my-ride-mia612",
     },
     {
       id: 2,
@@ -84,7 +84,7 @@ export const navItems = [
       des: "Connects aspiring developers with mentors, featuring Google Meet, authorization, and calendar integration.",
       img: "https://res.cloudinary.com/dufs8hbca/image/upload/v1731902942/Saved/Copy-of-Untitled-Design-Poster-US-Canva-11-17-2024_08_08_PM_anmegz.png",
       iconLists: ["https://www.svgrepo.com/show/452228/html-5.svg", "https://www.svgrepo.com/show/452185/css-3.svg", "https://www.svgrepo.com/show/353498/bootstrap.svg", "https://www.svgrepo.com/show/349419/javascript.svg","/re.svg","https://www.svgrepo.com/show/373931/node2.svg", "https://www.svgrepo.com/show/452091/python.svg", "https://www.svgrepo.com/show/354200/postgresql.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "devmentor-frontend.onrender.com",
     },
     // {
     //   id: 3,
